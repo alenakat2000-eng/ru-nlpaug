@@ -194,9 +194,22 @@ ID,word1,word2,relation_type
 
 ## Ссылки
 
-- [nlpaug](https://github.com/makcedward/nlpaug) — оригинальная библиотека
-- [ruAntSynNet](https://github.com/dasha-b/ruAntSynNet) — словарь синонимов и антонимов
+### Библиотеки и инструменты
+
+- [nlpaug](https://github.com/makcedward/nlpaug) — оригинальная библиотека аугментации
 - [Stanza](https://stanfordnlp.github.io/stanza/) — NLP-пайплайн Stanford
 - [PyMorphy2](https://pymorphy2.readthedocs.io/) — морфологический анализатор
 - [razdel](https://github.com/natasha/razdel) — токенизатор для русского языка
-```
+
+### Лексические ресурсы
+
+- [ruAntSynNet](https://github.com/dasha-b/ruAntSynNet) — словарь синонимов и антонимов (Бородина, 2023)
+
+### Модели машинного перевода (для обратного перевода)
+
+- [opus-mt-ru-en](https://huggingface.co/Helsinki-NLP/opus-mt-ru-en) — перевод ru → en (Helsinki-NLP)
+- [opus-mt-en-ru](https://huggingface.co/Helsinki-NLP/opus-mt-en-ru) — перевод en → ru (Helsinki-NLP)
+
+### Векторные модели (для эмбеддинговой аугментации)
+
+- [tayga_upos_skipgram_300_2_2019](https://rusvectores.org/ru/models/) — Word2Vec-модель для русского языка (RusVectores)

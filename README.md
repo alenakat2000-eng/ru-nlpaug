@@ -1,5 +1,3 @@
-# ru-nlpaug
-```markdown
 # ru_nlpaug
 
 Библиотека для морфологически согласованной аугментации русскоязычных текстов, построенная поверх [nlpaug](https://github.com/makcedward/nlpaug).
@@ -43,7 +41,7 @@ pip install -r requirements.txt
 
 # Скачать модели для Stanza (один раз)
 python -c "import stanza; stanza.download('ru')"
-```
+
 
 ## Быстрый старт
 
